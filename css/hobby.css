@@ -1,13 +1,13 @@
 
 body {
-    background-color: #4700d8;
+    background-color: #50c878;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
   
   .topnav {
     overflow: hidden;
-    background-color: #e9e9e9;
+    background-color: #f5f5dc;
   }
   
   .topnav a {
@@ -21,12 +21,12 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #e9e9e9;
+    background-color: #f5f5dc;
     color: black;
   }
   
   .topnav a.active {
-    background-color: #e9e9e9;
+    background-color: #f5f5dc;
     color: black;
   }
   
@@ -55,20 +55,20 @@ body {
     
   }
   .container div{
-    background-color: aliceblue;
+    background: color #f5f5dc;
     border: 1px grey solid;
     border-radius: 5px;
     text-align: center;
-    width: 200px;
-    margin: 20px;
+    width: 150px;
+    margin: 10px;
   }
   
   .container {
   
     display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-content: center;
+    flex-direction: row-reverse;
+    align-self:left;
+    justify-content: left;
   }
   .container img {
   border-style: solid;
@@ -81,7 +81,7 @@ body {
   width: 100%;
   height: 150%;
   padding: 30px;
-  background-color: #ff85b3;
+  background-color: #b8aaaf;
   background-size: auto;
   background-repeat: no-repeat;
   background-size: contain;
@@ -132,7 +132,7 @@ body {
     }
     
 .form{
-  background-color: aliceblue;
+  background-color: #f5f5dc;
   color: rgb(14, 30, 30);
   width: 35%;
   padding: 20px;
@@ -149,7 +149,7 @@ body {
   color: #3766f2;
 }
  .frame{
-  border: #ff85b3;
-  margin: 45px;
+  border: #000;
+  margin: 30px;
   border-radius: 5px;
  } 
