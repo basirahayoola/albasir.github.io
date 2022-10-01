@@ -13,8 +13,7 @@
   <div class="topnav">
     <a class="active" href="index.html">HOME</a>
     <a class="active" href="about.html">ABOUT</a>
-    <a class="active" href="hobby.html">HOBBY</a>
-    <a class="active" href="book.html">THE BOOK</a>
+    <a class="active" href="hobby.html">SERVICES</a>
     <a class="active" href="contact.html">CONTACT</a>
   
   </div>
@@ -27,33 +26,53 @@
 <div class="form"> 
 <form action="/hobby.html" target="_self">
  
-  <label for="firstname">First name:</label><br>
-  <input type="text" id="fname" name="firstName" value="Sarah"><br>
+  <label for="firstname">first Name:</label><br>
+  <input type="text" id="fname" name="firstName" value="" placeholder="First Name"><br>
   
-  <label for="lastname">Last name:</label><br>
-  <input type="text" id="lname" name="lastName" value="James"><br>
- <label for="phone">Phone number:</label><br>
+  <label for="lastname">Last Name:</label><br>
+  <input type="text" id="lname" name="lastName" value="" placeholder="Last Name" ><br>
+ <label for="phone">Phone Number:</label><br>
   <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br><br>
 
   <div class="form-group">
     <label for="message">Describe what you need</label>
-    <textarea class="form-control" id="message" rows="3"></textarea>
+    <textarea class="form-control" id="message" rows="5"></textarea>
     </div>
 <br>
   <label for="emdress">Email:</label><br>
-  <input type="string" id="email" name="emailAdress" size="50"><br><br>
+  <input type="string" id="email" name="emailAdress" size="50" placeholder="this@example.com"><br><br>
   <label for="hnumber">House Number:</label><br>
-  <input type="number" id="lname" name="houseNumber" value="Doe"><br><br>
+  <input type="number" id="lname" name="houseNumber" value="" placeholder="22"><br><br>
   <hr>
 <div class="sign">
-  <input type="submit" value="Sign Up">
+  <input type="submit" value="OUR SERVICES">
   </div>
 </form> 
 
 <p>People who use our services may have uploaded your contact information to this website.</p>
-<p> By clicking Sign Up, you agree to our <b>Terms,Privacy and Cookies Policy.</b></p>
+<p> By clicking Our Services, you agree to our <b>Terms,Privacy and Cookies Policy.</b></p>
   </div>
+  <div class="frame">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15855.470186265838!2d3.351193143992901!3d6.5384062926226925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8dbf236e5129%3A0xc6e53e0e9f644fa6!2sOnipanu%2C%20Oworonshoki!5e0!3m2!1sen!2sng!4v1663887519252!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<script src="project.js"></script>
+
+<p id="demo">We are available to offer our services both remotely and onsite.</p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.fontSize = "25px"; 
+  document.getElementById("demo").style.color = "white";
+  document.getElementById("demo").style.backgroundColor = "purple";        
+}
+</script>
+
+<button type="button" onclick="myFunction()">Click Here!</button>
+
+  <hr>
+<div class="footer">
+  <p style="color:gray;">Albasir Concepts and Designs</p>
+  </div>
 
 </body>
 </html>

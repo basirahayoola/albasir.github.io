@@ -54,53 +54,36 @@ body {
     }
     
   }
-  .container div{
-    background-color: aliceblue;
-    border: 1px grey solid;
-    border-radius: 5px;
+  .meet{
     text-align: center;
     width: 200px;
     margin: 20px;
+}
+
+img.mySELF {
+    border: 1px solid grey;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin-right: 10px;
+    float: left;
+    margin-right: 20px;
+}
+.meet p{
+  float: right;
+}
+section.about {
+    background: url("../image/gamepad1.jpeg");
+    overflow: hidden;
+  }
+  section.about h2 {
+    text-align: center;
+  }
+  section.favourites {
+    text-align: center;
   }
   
-  .container {
-  
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-content: center;
-  }
-  .container img {
-  border-style: solid;
-  float:none;
-  color: #9900f0;
-  width: 130px;
-  border-radius: 50px;
-  }
-  .logo{
-  width: 100%;
-  height: 150%;
-  padding: 30px;
-  background-color: #ff85b3;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-size: contain;
-  
-  }
-  .logo img{
-    width: 70px;
-    height: 50px;
-  }
-  
-  img {
-  width: 100px;
-  border: #9900f0;
-  background: url("../images/Albasir.jpg");
-  float: left;
-  clear: none;
-  
-  }
-  
+
   h1 {
     color: #f900bf;
     text-align: center;
@@ -108,9 +91,10 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     
+
     h2 {
-        color: bisque;
-        text-align: left;
+        color:red;
+        text-align: right;
         font-style: italic;
     }
     p {
@@ -124,26 +108,11 @@ body {
       width: 90%;
       height: 150%;
       padding: 70px;
-      background-color: rgb(21, 19, 19);
+      background-color: rgb(49, 44, 44);
       background-size: auto;
       background-repeat: no-repeat;
       background-size: contain;
       text-align: left;
     }
-    
-.form{
-  background-color: aliceblue;
-  color: rgb(14, 30, 30);
-  width: 50%;
-  margin: 10%;
-  border-radius: 5px;
-  font-size: 1em;
-  align-content: center;
-}
-.form p{
-  color: black;
-}
-.sign{
-  color: #3766f2;
-}
+
   
