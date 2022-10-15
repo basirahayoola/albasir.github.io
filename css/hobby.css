@@ -78,11 +78,10 @@ body {
   border-radius: 50px;
   }
   .logo{
-  width: 100%;
+  width: 94%;
   height: 150%;
   padding: 30px;
-  background-color: #b8aaaf;
-  background-size: auto;
+  background-color: #00c897;
   background-repeat: no-repeat;
   background-size: contain;
   
@@ -153,3 +152,19 @@ body {
   margin: 30px;
   border-radius: 5px;
  } 
+ .swiper-container{
+  background-color: #f5f5dc;
+  width: 99%;
+  height: 200%;
+  padding: 50px;
+  border-radius: 5px;
+  align-content: center;
+ }
+ .swiper-slide img{
+  width: 450px;
+  height: 450px;
+  background-color: #00c897;
+  float: center;
+  clear: none;
+  
+ }
