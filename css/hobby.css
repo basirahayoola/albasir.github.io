@@ -1,4 +1,9 @@
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
     background-color: #50c878;
     margin: 0;
@@ -55,8 +60,8 @@ body {
     
   }
   .container div{
-    background: color #f5f5dc;
-    border: 1px grey solid;
+    background: color #0b0a75;
+    border: 1px #f4c290 solid;
     border-radius: 5px;
     text-align: center;
     width: 150px;
@@ -73,7 +78,7 @@ body {
   .container img {
   border-style: solid;
   float:none;
-  color: #9900f0;
+  color: #f4c290;
   width: 130px;
   border-radius: 50px;
   }
@@ -81,7 +86,7 @@ body {
   width: 94%;
   height: 150%;
   padding: 30px;
-  background-color: #00c897;
+  background-color: #0b0a75;
   background-repeat: no-repeat;
   background-size: contain;
   
@@ -93,7 +98,7 @@ body {
   
   img {
   width: 100px;
-  border: #9900f0;
+  border: #f4c290;
   background: url("../images/Albasir.jpg");
   float: left;
   clear: none;
@@ -101,7 +106,7 @@ body {
   }
   
   h1 {
-    color: #f900bf;
+    color: #f4c290;
     text-align: center;
     font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -133,7 +138,7 @@ body {
 .form{
   background-color: #f5f5dc;
   color: rgb(14, 30, 30);
-  width: 35%;
+  width: 85%;
   padding: 20px;
   margin: 10%;
   border-radius: 5px;
@@ -153,8 +158,8 @@ body {
   border-radius: 5px;
  } 
  .swiper-container{
-  background-color: #f5f5dc;
-  width: 99%;
+  background-color: #0b0a75;
+  width: 80%;
   height: 200%;
   padding: 50px;
   border-radius: 5px;
@@ -163,7 +168,7 @@ body {
  .swiper-slide img{
   width: 450px;
   height: 450px;
-  background-color: #00c897;
+  background-color: #f4c290;
   float: center;
   clear: none;
   
